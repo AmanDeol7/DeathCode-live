@@ -23,3 +23,25 @@ body{
 .horizontalfade{
   background-image: linear-gradient(to left, rgba(0,0,0,0),  rgba(0,0,0,0.8));
 }
+
+.anime{
+  position: relative;
+  overflow: hidden;
+}
+
+.anime-container{
+  overflow: auto;
+  display: flex;
+  height: 100%;
+}
+
+.anime-container::-webkit-scrollbar{
+  display: none;
+}
+.overlay:hover .animeDesc{
+  display: none;
+}
+
+.gradient{
+  background-image: linear-gradient(to top, rgb(31, 55, 66), black);
+}
