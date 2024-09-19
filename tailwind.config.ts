@@ -8,10 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      backgroundImage: {
+        "gradient-radial" : "radial-gradient(var(--tw-gradient-stops))",
+        "conic-gradient" : "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      backgroundColor: {
+        "black-overlay" : "rgba(19,20,25,0.25"
+      }
+
     },
   },
   plugins: [],

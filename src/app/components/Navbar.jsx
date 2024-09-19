@@ -55,7 +55,7 @@ M298.367 41.3526C292.442 41.3526 290 38.7291 290 33.1214V10.8231H297.146V33.1214
     </span>
  </div>
  <div className="m-0 p-0 flex w-full h-full"></div>
- <span className="flex justify-center items-center px-4 text-yellow-400 hover:bg-gray-950 h-[100%] text-2xl ">
+ <span className="flex justify-center items-center px-4~ text-yellow-400 hover:bg-gray-950 h-[100%] text-2xl ">
     <PiCrownSimpleFill />
     <div className="text-xs ml-1" >
         <p>TRY FREE</p>
